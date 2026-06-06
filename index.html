@@ -108,10 +108,6 @@
     .rec-block strong{color:var(--text);font-weight:500}
     .rec-block ul{padding-left:1.2rem;margin-top:.5rem}
     .rec-block ul li{font-size:.92rem;color:var(--muted);line-height:1.85;margin-bottom:.3rem}
-    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
-    .gallery-item{aspect-ratio:1;overflow:hidden;background:var(--cream)}
-    .gallery-item img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
-    .gallery-item:hover img{transform:scale(1.05)}
     @media(max-width:640px){.two-col,.location-grid{grid-template-columns:1fr}.contact-row{grid-template-columns:1fr}.menu-row{grid-template-columns:1fr}.cover h1{font-size:1.8rem}.cover-logo{width:145px;height:145px}.gallery-grid{grid-template-columns:repeat(2,1fr)}.lang-bar{bottom:.6rem;right:.6rem}}
   </style>
 </head>
@@ -147,7 +143,6 @@
     <button class="tab-btn" onclick="showTab('contactos',this)"><span class="es">Contactos</span><span class="en">Contacts</span></button>
     <button class="tab-btn" onclick="showTab('ubicacion',this)"><span class="es">Ubicación</span><span class="en">Location</span></button>
     <button class="tab-btn" onclick="showTab('actividades',this)"><span class="es">Actividades</span><span class="en">Activities</span></button>
-    <button class="tab-btn" onclick="showTab('fotos',this)"><span class="es">Fotos</span><span class="en">Photos</span></button>
   </div>
 </div>
 
@@ -597,26 +592,6 @@
     <p class="act-body es">A 40 km. Selva tropical que llega al mar, paisajes excepcionales. Excursión de día completo recomendada. Requiere registro previo.</p>
     <p class="act-body en">40 km away. Tropical forest meeting the Caribbean Sea, exceptional scenery. Full-day excursion recommended. Prior registration required.</p>
   </div></div>
-</div></div>
-
-<!-- ═══ FOTOS / PHOTOS ═══ -->
-<div id="panel-fotos" class="panel"><div class="page-wrap">
-  <p class="sec-label">Casa Selva Rosa</p>
-  <h2 class="sec-title es">La Propiedad</h2><h2 class="sec-title en">The Property</h2>
-  <div class="note-box es">Las fotos cargan desde Google Drive. Para que sean visibles, los archivos deben estar configurados como públicos en Drive.</div>
-  <div class="note-box en">Photos load from Google Drive. To display correctly, the files must be set to public in Drive.</div>
-  <div class="gallery-grid"><div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1AE6gYTUEFcwwyefrFf5yYm2AWLgPHaUl" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1OgFYkY47YghiH9t-qQP9v5K7BZhGnORn" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1b_VIkfiR4oAiQ3p5MrCHF50oPi41VRrN" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=179BQBlhderce6q7STKameVzJf9kiEN8U" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1KHNSZS-shgW0t9JR75L6U0zwwWzkIpVN" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1kDH20ygjaV3lJsZD7fJ2DYGdr4L1zPm7" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1ZqSgGY4_Iv94Lx3egvBotmnEnW9AFXNA" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=11tILv6gOAtvlcPAXLmRtC6Anj-tWPbf_" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1qjumN1V3UskI5ZftUZnaR4tc4rYkR_x8" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1EaL3NbO6JUJn51zOdpd2GWiWMCtBDzWH" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1oZcS-joZHnKIMFNUh98qQtkU-NnQTfVX" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div>
-<div class="gallery-item"><img src="https://drive.google.com/uc?export=view&id=1JWMEGnED-CPvgNsq0HAFgRPWbqSrzs66" alt="Casa Selva Rosa" loading="lazy" onerror="this.parentElement.style.background='var(--cream)';this.style.display='none'"></div></div>
 </div></div>
 
 <script>
