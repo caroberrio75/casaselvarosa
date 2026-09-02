@@ -12,7 +12,7 @@
     body{
     font-family:'Jost',sans-serif;
     background-color:var(--vanilla);
-    
+    background-image:linear-gradient(rgba(254,250,248,.82),rgba(254,250,248,.82)),url("./fondo%20-%20botanico.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -25,18 +25,7 @@ body > *{
     position:relative;
     z-index:2;
 }
-body::before{
-    content:"";
-    position:fixed;
-    inset:0;
-    background-image:url("./fondo%20-%20botanico.png");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    opacity:0.10;
-    pointer-events:none;
-    z-index:1;
-}
+
 
 body > *{
     position:relative;
