@@ -35,6 +35,23 @@ body > *{
     position:relative;
     z-index:1;
 }
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background-image:url("fondo-botanico.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    opacity:0.14;
+    pointer-events:none;
+    z-index:0;
+}
+
+body > *{
+    position:relative;
+    z-index:1;
+}
 
     /* LANG TOGGLE */
     .lang-bar{position:fixed;bottom:1rem;right:1rem;z-index:200;display:flex;background:var(--white);border:1px solid var(--line);border-radius:40px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.12)}
