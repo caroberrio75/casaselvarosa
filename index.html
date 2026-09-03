@@ -12,19 +12,18 @@
     html{
   background:var(--vanilla);
 }
-    body{
-    min-height:100vh;
-    font-family:'Jost',sans-serif;
-    background-color:var(--vanilla);
+    body::before{
+    content:"";
+    position:fixed;
+    inset:0;
     background-image:linear-gradient(rgba(254,250,248,.82),rgba(254,250,248,.50)),url("./fondo%20-%20botanico.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    background-attachment:fixed;
-    color:var(--text);
-    font-size:15px;
-    line-height:1.75;
+    z-index:0;
+    pointer-events:none;
 }
+    
 body > *{
     position:relative;
     z-index:2;
