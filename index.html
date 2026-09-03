@@ -613,7 +613,7 @@ function showTab(id,btn){
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('panel-'+id).classList.add('active');
   btn.classList.add('active');
-  window.scrollTo({top:document.querySelector('.tabs-wrapper').offsetTop-1,behavior:'smooth'});
+  window.scrollTo({top:document.getElementById('panel-'+id).offsetTop-20,behavior:'smooth'});
 }
 
 function setLang(lang){
